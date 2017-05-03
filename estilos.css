@@ -1,0 +1,89 @@
+body{
+	background-image: url("images/grey_wash_wall.png");
+}
+
+header{
+	font-family: 'Eagle Lake', cursive;
+	font-size: 30px;
+	text-align: center;
+
+}
+
+header>h1>a{
+	color: white;
+	text-decoration: none;
+}
+
+footer{
+	clear: right;
+	position: relative;
+	font-family: 'Eagle Lake', cursive;
+	font-size: 18px;
+	text-align: center;
+}
+
+#bloquePrincipal{   /*posicionamiento de la caja principal*/
+	display: inline-block;
+	border:4px solid #222C37;
+	width: 99%;	
+	height: 400px;
+	margin-top: 20px;
+	float: right;
+	background-image: url("images/otis_redding.png");
+}
+
+/*
+#lista li ul{
+	display: none;
+	position: absolute;
+	min-width: 140px;
+}
+
+#lista li:hover > ul{
+	display: block;
+}*/
+
+
+/* propiedades para el menu el menu*/
+
+.container_menu{
+	clear:both;
+ float:left;
+ overflow:hidden;
+ width:100%;
+}
+
+#lista{
+	 float:left;
+ left:50%;
+ list-style-type:none;
+ margin:0 auto;
+ padding:0;
+ position:relative;
+}
+
+#lista li{
+	float:left;
+ position:relative;
+ right:50%;
+}
+	
+
+#lista li a{
+	font-family: 'Hind', sans-serif;
+	font-size: 20px;
+	text-decoration: none;
+	float: left;
+	padding: 10px;
+	background-color: #222C37;
+	color: white;
+
+}
+
+#lista li a:hover{
+	background-color: #313F4E;
+	margin-top: -5px;
+	padding-bottom: 15px;
+
+}
+
